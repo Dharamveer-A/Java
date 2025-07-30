@@ -1,4 +1,4 @@
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class Patterns {
     public static void pattern1(int n){
@@ -114,9 +114,9 @@ public class Patterns {
 
 
     public static void main(String[] args) {
-        int n=5;
-//        Scanner sc = new Scanner(System.in);
-//        n = sc.nextInt();
+        int n;
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
         pattern6(n);
     }
 }
